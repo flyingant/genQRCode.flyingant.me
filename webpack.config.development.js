@@ -83,7 +83,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'React Page Boilerplate',
+      title: `MaYi's QRCode Generator`,
       template: 'src/templates/index.html',
     }),
     new CopyWebpackPlugin({

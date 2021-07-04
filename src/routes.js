@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import AppContainer from './pages/AppContainer';
+import App from './pages/App';
 
 export default function Routers() {
   return (
     <Router>
       <Switch>
         <Route path="/">
-          <AppContainer />
+          <App />
         </Route>
       </Switch>
     </Router>
